@@ -1,0 +1,101 @@
+\documentclass[12pt]{beamer}
+\usetheme{Rec}
+%\hypersetup{pdfpagemode=FullScreen}
+
+\setbeamertemplate{footline}[text line]{} % makes the footer EMPTY
+\useoutertheme[subsection=false]{smoothbars}
+
+\usepackage{subfigure}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage[all,knot]{xy}
+\usepackage{url}
+\usepackage{multimedia}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{tabularx}
+
+\usefonttheme{professionalfonts}
+\usefonttheme{serif}
+\usepackage{fontspec}
+\setmainfont{Ubuntu}
+
+
+\title{\Large REC presentation template}
+\author{Your Name}
+\date{2018}
+
+
+\begin{document}
+
+\maketitle
+
+
+
+\begin{frame}
+
+	\begin{flushright}
+	\Large \textcolor{boss2}{General slide structure with minimal text} 
+	\end{flushright}
+\end{frame}
+
+
+
+
+\begin{frame}
+
+  \textcolor{recRed}{Image slide} \\
+	\begin{center}
+    \includegraphics[width=0.75\textwidth]{figs/mouse.jpeg}
+	\end{center}
+\end{frame}
+
+
+
+
+
+\begin{frame}
+
+\textcolor{recRed}{Itemized list} \\
+\begin{itemize}
+  \item First point
+  \item Second point
+    \begin{enumerate}
+      \item Sub list of enumerated entries 
+      \item text text text
+    \end{enumerate}
+  \item Final point
+\end{itemize}
+\end{frame}
+
+
+
+
+
+
+
+
+\begin{frame}
+
+{\large \textcolor{recRed}{Acknowledgements}}
+
+  \begin{itemize}
+    \item National Science Foundation
+    \item other stuff
+  \end{itemize}
+
+  \begin{flushright}
+    \begin{tabular}{cl}
+    \includegraphics[width=0.75cm]{figs/email.png} & \texttt{email@helsinki.fi} \\
+    \includegraphics[width=1.5cm]{figs/octocat.png} & \texttt{github.user.name} \\
+    \includegraphics[width=0.75cm]{figs/user.png} & \texttt{website}\\
+    \includegraphics[width=0.75cm]{figs/twitter.png} & \texttt{@user.name} \\
+   \end{tabular}
+  \end{flushright}
+\end{frame}
+
+
+
+
+
+\end{document}
